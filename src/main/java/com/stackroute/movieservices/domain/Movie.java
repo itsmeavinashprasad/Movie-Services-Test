@@ -19,7 +19,7 @@ import javax.persistence.*;
 @Setter
 public class Movie {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @GeneratedValue(strategy = GenerationType.AUTO)
     @JsonProperty(value = "id")
     @ApiModelProperty(value = "Movie Id")
     private int id;
